@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #160711;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.particle {
+  animation: particle-drift 7s ease-in-out infinite alternate;
+  box-shadow: 0 0 18px rgba(255, 196, 218, 0.95);
+}
+
+.floating-heart {
+  animation: heart-float 12s linear infinite;
+  filter: drop-shadow(0 0 18px rgba(255, 130, 180, 0.42));
+}
+
+.heart-pulse {
+  animation: heart-pulse 1.9s ease-in-out infinite;
+  filter: drop-shadow(0 0 28px rgba(255, 123, 178, 0.62));
+}
+
+@keyframes particle-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.9);
+  }
+
+  100% {
+    transform: translate3d(18px, -24px, 0) scale(1.45);
+  }
+}
+
+@keyframes heart-float {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(0.85);
+  }
+
+  16% {
+    opacity: 0.72;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(28px, -118vh, 0) rotate(18deg) scale(1.1);
+  }
+}
+
+@keyframes heart-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+    </style>
+  </defs>
+  <!-- Heart shape -->
+  <path d="M50,90 C20,70 10,55 10,40 C10,25 20,15 30,15 C38,15 45,20 50,28 C55,20 62,15 70,15 C80,15 90,25 90,40 C90,55 80,70 50,90 Z" fill="#ff69b4" stroke="#ff1493" stroke-width="2"/>
+  <!-- Text -->
+  <text x="50" y="48" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" letter-spacing="-1">S</text>
+</svg>
