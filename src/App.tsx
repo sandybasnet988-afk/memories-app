@@ -10,14 +10,14 @@ type Memory = {
 
 // Replace each empty src with your uploaded image path, for example: /photos/sneha-1.jpg
 const memories: Memory[] = [
-  { id: 1, src: "image/1.jpg", caption: "A moment I still remember.", rotation: "-rotate-3" },
-  { id: 2, src: "image/2.jpg", caption: "I wish I could go back to this day.", rotation: "rotate-2" },
-  { id: 3, src: "image/3.jpg", caption: "One of my favorite memories.", rotation: "-rotate-1" },
-  { id: 4, src: "image/4.jpg", caption: "I miss these moments.", rotation: "rotate-3" },
-  { id: 5, src: "image/5.jpg", caption: "A moment I still remember.", rotation: "rotate-1" },
-  { id: 6, src: "image/6.jpg", caption: "I wish I could go back to this day.", rotation: "-rotate-2" },
-  { id: 7, src: "image/7.jpg", caption: "One of my favorite memories.", rotation: "rotate-2" },
-  { id: 8, src: "image/1.jpg", caption: "I miss these moments.", rotation: "-rotate-3" },
+  { id: 1, src: "/image/1.jpg", caption: "A moment I still remember.", rotation: "-rotate-3" },
+  { id: 2, src: "/image/2.jpg", caption: "I wish I could go back to this day.", rotation: "rotate-2" },
+  { id: 3, src: "/image/3.jpg", caption: "One of my favorite memories.", rotation: "-rotate-1" },
+  { id: 4, src: "/image/4.jpg", caption: "I miss these moments.", rotation: "rotate-3" },
+  { id: 5, src: "/image/5.jpg", caption: "A moment I still remember.", rotation: "rotate-1" },
+  { id: 6, src: "/image/6.jpg", caption: "I wish I could go back to this day.", rotation: "-rotate-2" },
+  { id: 7, src: "/image/7.jpg", caption: "One of my favorite memories.", rotation: "rotate-2" },
+  { id: 8, src: "/image/1.jpg", caption: "I miss these moments.", rotation: "-rotate-3" },
 ];
 
 const confessionLines = [
